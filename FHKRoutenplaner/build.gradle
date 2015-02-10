@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "de.damianbuecker.fhkroutenplaner.activity"
+        minSdkVersion 13
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:18.0.0'
+    compile 'com.android.support:appcompat-v7:18.0.0'
+    compile 'com.android.support:appcompat-v7:18.0.0'
+    compile 'com.google.code.gson:gson:2.3'
+    compile files('libs/date4j.jar')
+    compile files('libs/guice-3.0-no_aop.jar')
+    compile files('libs/javax.inject-1.jar')
+    compile files('libs/jsr305-1.3.9.jar')
+    compile files('libs/ormlite-android-4.48.jar')
+    compile files('libs/ormlite-core-4.48.jar')
+    compile files('libs/roboguice-2.0.jar')
+    compile files('libs/slf4j-android-1.6.1-RC1.jar')
+}

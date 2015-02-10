@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FHKRoutenplaner.iml" filepath="$PROJECT_DIR$/FHKRoutenplaner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FHKRoutenplaner/FHKRoutenplaner-FHKRoutenplaner.iml" filepath="$PROJECT_DIR$/FHKRoutenplaner/FHKRoutenplaner-FHKRoutenplaner.iml" />
+    </modules>
+  </component>
+</project>
+
